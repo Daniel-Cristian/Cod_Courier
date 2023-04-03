@@ -1,0 +1,18 @@
+ROLLBACK;
+ALTER SESSION CLOSE DATABASE LINK colete;
+
+DROP DATABASE LINK colete;
+CREATE DATABASE LINK colete
+   CONNECT TO colete IDENTIFIED BY colete
+   USING '//localhost:1521/XEPDB1';
+
+select * from user_db_links;
+
+----------------------------
+DROP VIEW CPOSTALE_VIEW;
+CREATE OR REPLACE VIEW CPOSTALE_VIEW AS
+SELECT COD_POSTAL,LOCALITATE,JUDET
+FROM coduri_postale@colete;
+
+select * from CPOSTALE_VIEW;
+
