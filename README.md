@@ -1,2 +1,2 @@
-# cod-courier
-A repo for informational integration project.
+# cod_courier
+Proiect integrare informațională. 
