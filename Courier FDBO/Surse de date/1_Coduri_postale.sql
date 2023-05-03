@@ -30,5 +30,5 @@ INSERT INTO coduri_postale VALUES (530183,	'Miercurea-Ciuc',	'Harghita');
 INSERT INTO coduri_postale VALUES (237260,	'Milcov',	'Olt');
 INSERT INTO coduri_postale VALUES (237261,	'Ipotești',	'Olt');
 INSERT INTO coduri_postale VALUES (307060,	'Biled',	'Timiș');
-INSERT INTO coduri_postale VALUES (627246,	'Prahuda',	'Vrancea');
+INSERT INTO coduri_postale VALUES (120115,	'Prahuda',	'Vrancea');
 COMMIT;
