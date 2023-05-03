@@ -42,7 +42,7 @@
    </linie>
    <linie>
       <NR_FACTURA>2</NR_FACTURA>
-      <LINIE_FACTURA>3</LINIE_FACTURA>
+      <LINIE_FACTURA>4</LINIE_FACTURA>
       <ID_COLET>15</ID_COLET>
    </linie>
    <linie>
@@ -174,5 +174,40 @@
       <NR_FACTURA>15</NR_FACTURA>
       <LINIE_FACTURA>1</LINIE_FACTURA>
       <ID_COLET>35</ID_COLET>
+   </linie>
+   <linie>
+      <NR_FACTURA>15</NR_FACTURA>
+      <LINIE_FACTURA>2</LINIE_FACTURA>
+      <ID_COLET>36</ID_COLET>
+   </linie>
+   <linie>
+      <NR_FACTURA>15</NR_FACTURA>
+      <LINIE_FACTURA>3</LINIE_FACTURA>
+      <ID_COLET>37</ID_COLET>
+   </linie>
+   <linie>
+      <NR_FACTURA>15</NR_FACTURA>
+      <LINIE_FACTURA>4</LINIE_FACTURA>
+      <ID_COLET>38</ID_COLET>
+   </linie>
+   <linie>
+      <NR_FACTURA>16</NR_FACTURA>
+      <LINIE_FACTURA>1</LINIE_FACTURA>
+      <ID_COLET>39</ID_COLET>
+   </linie>
+   <linie>
+      <NR_FACTURA>16</NR_FACTURA>
+      <LINIE_FACTURA>2</LINIE_FACTURA>
+      <ID_COLET>40</ID_COLET>
+   </linie>
+   <linie>
+      <NR_FACTURA>16</NR_FACTURA>
+      <LINIE_FACTURA>3</LINIE_FACTURA>
+      <ID_COLET>41</ID_COLET>
+   </linie>
+   <linie>
+      <NR_FACTURA>16</NR_FACTURA>
+      <LINIE_FACTURA>3</LINIE_FACTURA>
+      <ID_COLET>42</ID_COLET>
    </linie>
 </linii_facturi>
