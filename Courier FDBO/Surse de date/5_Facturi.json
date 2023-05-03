@@ -47,7 +47,49 @@
             "nr_factura":8,
             "id_expeditor":5,
             "id_destinatar":4,
-            "data_tiparire":"28-JAN-18"
+            "data_tiparire":"25-JAN-18"
+         },
+         {
+            "nr_factura":9,
+            "id_expeditor":5,
+            "id_destinatar":6,
+            "data_tiparire":"26-JAN-18"
+         },
+         {
+            "nr_factura":10,
+            "id_expeditor":5,
+            "id_destinatar":20,
+            "data_tiparire":"27-JAN-18"
+         },
+         {
+            "nr_factura":11,
+            "id_expeditor":5,
+            "id_destinatar":4,
+            "data_tiparire":"29-JAN-18"
+         },
+         {
+            "nr_factura":12,
+            "id_expeditor":19,
+            "id_destinatar":12,
+            "data_tiparire":"1-FEB-18"
+         },
+         {
+            "nr_factura":13,
+            "id_expeditor":15,
+            "id_destinatar":13,
+            "data_tiparire":"3-FEB-18"
+         },
+         {
+            "nr_factura":14,
+            "id_expeditor":18,
+            "id_destinatar":5,
+            "data_tiparire":"3-FEB-18"
+         },
+         {
+            "nr_factura":15,
+            "id_expeditor":17,
+            "id_destinatar":20,
+            "data_tiparire":"15-FEB-18"
          }
       ]
    }

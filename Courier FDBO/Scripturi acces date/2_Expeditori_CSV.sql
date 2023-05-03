@@ -10,6 +10,7 @@ CREATE TABLE EXPEDITORI (
     prenume VARCHAR2(50),
     cod_postal NUMBER,
     adresa VARCHAR2(100),
+    mediu VARCHAR2(10),
     nr_telefon VARCHAR2(10)
 )
 ORGANIZATION EXTERNAL (

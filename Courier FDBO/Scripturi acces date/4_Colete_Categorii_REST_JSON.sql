@@ -37,16 +37,13 @@ DROP VIEW colete_view;
 CREATE OR REPLACE VIEW colete_view AS
 with json as  
 (select JSON_QUERY(get_restheart_data_media('http://localhost:8080/colete', 'admin:secret'), '$.categorii_colete.categorie') doc from dual) 
-SELECT id_colet, id_destinatar, id_expeditor, greutate, valoare, data_expediere, continut_colet
+SELECT id_colet, greutate, valoare, continut_colet
 FROM  JSON_TABLE( (select doc from json) , '$[*]'  
             COLUMNS ( nested PATH '$.colete.colet[*]' 
                                columns (
                                    id_colet     path '$.id_colet' null on error
-                                 , id_destinatar   path '$.id_destinatar' null on error
-                                 , id_expeditor path '$.id_expeditor' null on error
                                  , greutate path '$.greutate' null on error
                                  , valoare path '$.valoare' null on error
-                                 , data_expediere path '$.data_expediere' null on error
                                  , continut_colet path '$.continut_colet' null on error
                                )
                     )  
@@ -69,11 +66,8 @@ SELECT * FROM  JSON_TABLE( (select doc from json) , '$[*]'
                     , nested PATH '$.colete.colet[*]' 
                                columns (
                                    id_colet     path '$.id_colet' null on error
-                                 , id_destinatar   path '$.id_destinatar' null on error
-                                 , id_expeditor path '$.id_expeditor' null on error
                                  , greutate path '$.greutate' null on error
                                  , valoare path '$.valoare' null on error
-                                 , data_expediere path '$.data_expediere' null on error
                                  , continut_colet path '$.continut_colet' null on error
                                )
                     )  

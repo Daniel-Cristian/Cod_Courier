@@ -12,6 +12,7 @@ from TABLE(
             "prenume"       VARCHAR2(50),
             "cod_postal"    number,
             "adresa"        VARCHAR2(100),
+            "mediu"        VARCHAR2(10),
             "nr_telefon"            number'
        , 'A2'
        )

@@ -1,0 +1,426 @@
+[{
+  "categorii_colete": {
+    "categorie": [
+      {
+        "ID_CATEGORIE": 11,
+        "DENUMIRE_CATEGORIE": "Plicuri normale",
+        "GREUTATE_MIN": 0,
+        "GREUTATE_MAX": 1,
+        "VALOARE_MIN": 0,
+        "VALOARE_MAX": 200000,
+        "colete": {
+          "colet": [
+            {
+              "id_colet": 9,
+              "greutate": 0.8,
+              "valoare": 3500,
+              "continut_colet": "Bratara aur 24k"
+            },
+            {
+              "id_colet": 10,
+              "greutate": 0.3,
+              "valoare": 0,
+              "continut_colet": "Contract Telefonie"
+            },
+            {
+              "id_colet": 11,
+              "greutate": 0.3,
+              "valoare": 2500,
+              "continut_colet": "Bratara aur alb"
+            },
+            {
+              "id_colet": 12,
+              "greutate": 0.2,
+              "valoare": 1500,
+              "continut_colet": "Cercei smarald"
+            },
+            {
+              "id_colet": 13,
+              "greutate": 0.4,
+              "valoare": 2800,
+              "continut_colet": "Colier diamant-aur"
+            },
+            {
+              "id_colet": 14,
+              "greutate": 0.4,
+              "valoare": 2320,
+              "continut_colet": "Colier diamant-aur"
+            },
+            {
+              "id_colet": 15,
+              "greutate": 0.2,
+              "valoare": 0,
+              "continut_colet": "Contract televiziune"
+            },
+            {
+              "id_colet": 36,
+              "greutate": 0.4,
+              "valoare": 200,
+              "continut_colet": "Cercei aur"
+            },
+            {
+              "id_colet": 37,
+              "greutate": 0.2,
+              "valoare": 2400,
+              "continut_colet": "Inel aur-alb 24k"
+            },
+            {
+              "id_colet": 38,
+              "greutate": 0.4,
+              "valoare": 5620,
+              "continut_colet": "Colier diamant-aur"
+            },
+            {
+              "id_colet": 39,
+              "greutate": 0.4,
+              "valoare": 4986,
+              "continut_colet": "Cercei diamant-aur"
+            },
+            {
+              "id_colet": 40,
+              "greutate": 0.4,
+              "valoare": 0,
+              "continut_colet": "Contract televizune"
+            }
+          ]
+        }
+      },
+      {
+        "ID_CATEGORIE": 15,
+        "DENUMIRE_CATEGORIE": "Electronice mari",
+        "GREUTATE_MIN": 10,
+        "GREUTATE_MAX": 400,
+        "VALOARE_MIN": 0,
+        "VALOARE_MAX": 500000,
+        "colete": {
+          "colet": [
+            {
+              "id_colet": 7,
+              "greutate": 50,
+              "valoare": 4729,
+              "continut_colet": "Combina side Tesla"
+            },
+            {
+              "id_colet": 8,
+              "greutate": 70,
+              "valoare": 1250,
+              "continut_colet": "Masina de spalat Samsung"
+            },
+            {
+              "id_colet": 16,
+              "greutate": 75,
+              "valoare": 1350,
+              "continut_colet": "Masina de spalat Samsung"
+            },
+            {
+              "id_colet": 17,
+              "greutate": 80,
+              "valoare": 1580,
+              "continut_colet": "Combina frigorifica Silver"
+            },
+            {
+              "id_colet": 18,
+              "greutate": 65,
+              "valoare": 1210,
+              "continut_colet": "Masina spalat vase Arctic"
+            },
+            {
+              "id_colet": 19,
+              "greutate": 59,
+              "valoare": 1110,
+              "continut_colet": "Compresor 2500W"
+            },
+            {
+              "id_colet": 20,
+              "greutate": 25,
+              "valoare": 870,
+              "continut_colet": "Kit Bormasina"
+            },
+            {
+              "id_colet": 41,
+              "greutate": 67,
+              "valoare": 1510,
+              "continut_colet": "Compresor 2500W"
+            },
+            {
+              "id_colet": 42,
+              "greutate": 75,
+              "valoare": 2110,
+              "continut_colet": "Compresor 5500W"
+            },
+            {
+              "id_colet": 43,
+              "greutate": 75,
+              "valoare": 1110,
+              "continut_colet": "Aragaz Arctic"
+            },
+            {
+              "id_colet": 44,
+              "greutate": 75,
+              "valoare": 2110,
+              "continut_colet": "Aragaz Arctic-Plita"
+            },
+            {
+              "id_colet": 45,
+              "greutate": 40,
+              "valoare": 1510,
+              "continut_colet": "Masina de spalat vase"
+            }
+          ]
+        }
+      },
+      {
+        "ID_CATEGORIE": 61,
+        "DENUMIRE_CATEGORIE": "Televizoare",
+        "GREUTATE_MIN": 10,
+        "GREUTATE_MAX": 400,
+        "VALOARE_MIN": 0,
+        "VALOARE_MAX": 500000,
+        "colete": {
+          "colet": [
+            {
+              "id_colet": 5,
+              "greutate": 12,
+              "valoare": 2219.9,
+              "continut_colet": "Televizor Samsung 125cm"
+            },
+            {
+              "id_colet": 6,
+              "greutate": 14,
+              "valoare": 3219.9,
+              "continut_colet": "Telefon Philips Oled"
+            },
+            {
+              "id_colet": 21,
+              "greutate": 12,
+              "valoare": 2219.9,
+              "continut_colet": "Televizor Samsung 125cm"
+            },
+            {
+              "id_colet": 22,
+              "greutate": 11,
+              "valoare": 1219.9,
+              "continut_colet": "Televizor Samsung 105cm"
+            },
+            {
+              "id_colet": 23,
+              "greutate": 10,
+              "valoare": 1219.9,
+              "continut_colet": "Televizor Horizon 125cm"
+            },
+            {
+              "id_colet": 24,
+              "greutate": 9,
+              "valoare": 1519.9,
+              "continut_colet": "Televizor Philips 125cm"
+            },
+            {
+              "id_colet": 25,
+              "greutate": 14,
+              "valoare": 3219.9,
+              "continut_colet": "Televizor Modular 125cm 4k"
+            },
+            {
+              "id_colet": 46,
+              "greutate": 9,
+              "valoare": 1219.9,
+              "continut_colet": "Televizor Philips 105cm"
+            },
+            {
+              "id_colet": 47,
+              "greutate": 9,
+              "valoare": 1519.9,
+              "continut_colet": "Televizor 4k 105cm"
+            },
+            {
+              "id_colet": 48,
+              "greutate": 11,
+              "valoare": 1539.9,
+              "continut_colet": "Televizor 4k 105cm"
+            },
+            {
+              "id_colet": 49,
+              "greutate": 12,
+              "valoare": 1539.9,
+              "continut_colet": "Televizor Asus 105cm"
+            },
+            {
+              "id_colet": 50,
+              "greutate": 12,
+              "valoare": 939.9,
+              "continut_colet": "Televizor Vector 105cm"
+            }
+          ]
+        }
+      },
+      {
+        "ID_CATEGORIE": 71,
+        "DENUMIRE_CATEGORIE": "Telefoane mobile",
+        "GREUTATE_MIN": 0,
+        "GREUTATE_MAX": 10,
+        "VALOARE_MIN": 0,
+        "VALOARE_MAX": 500000,
+        "colete": {
+          "colet": [
+            {
+              "id_colet": 1,
+              "greutate": 0.3,
+              "valoare": 303,
+              "continut_colet": "Telefon mobil Huawei"
+            },
+            {
+              "id_colet": 2,
+              "greutate": 0.3,
+              "valoare": 4319.5,
+              "continut_colet": "Telefon mobil Iphone 11"
+            },
+            {
+              "id_colet": 26,
+              "greutate": 0.3,
+              "valoare": 1319.5,
+              "continut_colet": "Telefon mobil Motorola 11"
+            },
+            {
+              "id_colet": 27,
+              "greutate": 0.4,
+              "valoare": 2319.5,
+              "continut_colet": "Telefon mobil Iphone 8"
+            },
+            {
+              "id_colet": 28,
+              "greutate": 0.4,
+              "valoare": 1519.5,
+              "continut_colet": "Telefon mobil Iphone 7S"
+            },
+            {
+              "id_colet": 29,
+              "greutate": 0.4,
+              "valoare": 1219.5,
+              "continut_colet": "Telefon mobil Samsung S7"
+            },
+            {
+              "id_colet": 30,
+              "greutate": 0.4,
+              "valoare": 919.5,
+              "continut_colet": "Telefon mobil Alcatel 8"
+            },
+            {
+              "id_colet": 51,
+              "greutate": 0.4,
+              "valoare": 1419.5,
+              "continut_colet": "Telefon mobil Samsung S7"
+            },
+            {
+              "id_colet": 52,
+              "greutate": 0.4,
+              "valoare": 1319.5,
+              "continut_colet": "Telefon mobil Alcatel 8"
+            },
+            {
+              "id_colet": 53,
+              "greutate": 0.8,
+              "valoare": 3319.5,
+              "continut_colet": "Telefon mobil Huawei P40"
+            },
+            {
+              "id_colet": 54,
+              "greutate": 0.8,
+              "valoare": 2319.5,
+              "continut_colet": "Telefon mobil Huawei P30"
+            },
+            {
+              "id_colet": 55,
+              "greutate": 0.8,
+              "valoare": 519.5,
+              "continut_colet": "Telefon mobil Huawei P20"
+            }
+          ]
+        }
+      },
+      {
+        "ID_CATEGORIE": 81,
+        "DENUMIRE_CATEGORIE": "Laptop-uri",
+        "GREUTATE_MIN": 0,
+        "GREUTATE_MAX": 10,
+        "VALOARE_MIN": 0,
+        "VALOARE_MAX": 500000,
+        "colete": {
+          "colet": [
+            {
+              "id_colet": 3,
+              "greutate": 7,
+              "valoare": 4326.5,
+              "continut_colet": "Laptop Dell Latitude"
+            },
+            {
+              "id_colet": 4,
+              "greutate": 10,
+              "valoare": 5328.5,
+              "continut_colet": "Laptop Lenovo Legion "
+            },
+            {
+              "id_colet": 31,
+              "greutate": 7,
+              "valoare": 5326.5,
+              "continut_colet": "Laptop Dell Latitude"
+            },
+            {
+              "id_colet": 32,
+              "greutate": 9,
+              "valoare": 6326.5,
+              "continut_colet": "Laptop Lenovo Artos"
+            },
+            {
+              "id_colet": 33,
+              "greutate": 6,
+              "valoare": 8326.5,
+              "continut_colet": "Laptop Acer Nitro"
+            },
+            {
+              "id_colet": 34,
+              "greutate": 6,
+              "valoare": 9326.5,
+              "continut_colet": "Laptop Asus Rog"
+            },
+            {
+              "id_colet": 35,
+              "greutate": 6,
+              "valoare": 13326.5,
+              "continut_colet": "Laptop Asus Strix"
+            },
+            {
+              "id_colet": 56,
+              "greutate": 6,
+              "valoare": 9326.5,
+              "continut_colet": "Laptop Asus Rog"
+            },
+            {
+              "id_colet": 57,
+              "greutate": 7,
+              "valoare": 1326.5,
+              "continut_colet": "Laptop Asus 4gb"
+            },
+            {
+              "id_colet": 58,
+              "greutate": 5,
+              "valoare": 1726.5,
+              "continut_colet": "Laptop Acer 8gb"
+            },
+            {
+              "id_colet": 59,
+              "greutate": 5,
+              "valoare": 3726.5,
+              "continut_colet": "Laptop Acer Gaming"
+            },
+            {
+              "id_colet": 60,
+              "greutate": 5,
+              "valoare": 2726.5,
+              "continut_colet": "Laptop Acer Gaming"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}]

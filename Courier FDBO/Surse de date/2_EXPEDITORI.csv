@@ -1,6 +1,21 @@
-ID_EXPEDITOR,NUME,PRENUME,COD_POSTAL,ADRESA,NR_TELEFON
-1,Iorga,Claudiu-Jack,620011,Cosbuc George,0356747412
-2,Abageriu,Larisa Ecaterina,200504,Armoniei,0333337205
-3,Pop,Juliana-Virginia,400046,Unirii nr. 17,0373515112
-4,Piturca,Traian Rareș,717247,Ezareni,0734859893
-5,Murgoci,Delia-Ștefana,120115,Nanterre bl. D11,0274387839
+ID_EXPEDITOR,NUME,PRENUME,COD_POSTAL,ADRESA,MEDIU,NR_TELEFON
+1,Iorga,Claudiu-Jack,620011,Cosbuc George,Rural,0356747412
+2,Abageriu,Larisa-Ecaterina,200504,Armoniei,Rural,0333337205
+3,Pop,Juliana-Virginia,400046,Unirii nr. 17,Rural,0373515112
+4,Piturca,Traian,717247,Ezareni,Rural,0734859893
+5,Matescu,Daniel,120115,Libertatii bl. C11,Urban,0274385833
+6,Ivanovici,Irina,80539,Industriilor nr. 2,Urban,0298387835
+7,Iolan,Marian,707020,Mihai Eminescu 11,Urban,0774387834
+8,Vasilescu,Stelian,700950,Unirii nr. 22,Urban,0784387830
+9,Iftime,George-Iuian,720001,Livezilor nr. 2,Urban,0894387839
+10,Simion,Felix,435612,Tehnica bl. C1,Urban,0974387839
+11,Popa,Ecaterina,510003,Granelor nr.22,Urban,0256387839
+12,Stefanescu,Mihail,717247,Camerelor bl. D11,Urban,0290387839
+13,Popescu,Ecaterina,400046,Naturii bl. D11,Urban,0234387839
+14,Stefanescu,Mihail,200504,Nicolae Iorga bl. D11,Urban,0275387839
+15,Esanu,Marina Mia,80539,Lunii,Rural,0709661914
+16,S.C. Biro SRL,,200504,Nicolae Iorga bl. D11,Urban,0275387839
+17,Esanu II,,80539,Lunii,Rural,0709661914
+18,Iosefu M PFA,,200504,Nicolae Iorga bl. D11,Urban,0275387839
+19,S.C. PC Force SRL,,80539,Lunii,Rural,0709661914
+20,S.C. Grigoros SRL,,80539,Lunii 2,Rural,0709661914

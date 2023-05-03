@@ -1,0 +1,26 @@
+{
+   "depozite":{
+      "depozit":[
+         {
+            "id_depozit":1,
+            "adresa":"str. Industriilor nr.45",
+            "cod_postal":700950
+         },
+         {
+            "id_depozit":2,
+            "adresa":"str. Carbunilor nr. 14",
+            "cod_postal":300150
+         },
+         {
+            "id_depozit":3,
+            "adresa":"str. Binelui nr. 19",
+            "cod_postal":620011
+         },
+         {
+            "id_depozit":4,
+            "adresa":"str. Bucurestilor nr. 12",
+            "cod_postal":400046
+         }
+      ]
+   }
+}
