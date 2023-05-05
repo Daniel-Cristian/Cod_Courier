@@ -4,11 +4,12 @@ RETURN clob IS
   l_resp  UTL_HTTP.resp;
   l_buffer clob; 
 begin
+loop
   l_req  := UTL_HTTP.begin_request(pURL);
   UTL_HTTP.set_header(l_req, 'Authorization', 'Basic ' || 
     UTL_RAW.cast_to_varchar2(UTL_ENCODE.base64_encode(UTL_I18N.string_to_raw(pUserPass, 'AL32UTF8')))); 
   l_resp := UTL_HTTP.get_response(l_req);
-  UTL_HTTP.READ_TEXT(l_resp, l_buffer);
+  UTL_HTTP.READ_TEXT(l_resp, l_buffer,32000);
   UTL_HTTP.end_response(l_resp);
   return l_buffer;
 end;

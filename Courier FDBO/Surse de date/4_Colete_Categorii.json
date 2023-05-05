@@ -1,84 +1,84 @@
-{
+[{
   "categorii_colete": {
     "categorie": [
       {
         "ID_CATEGORIE": 11,
         "DENUMIRE_CATEGORIE": "Plicuri normale",
         "GREUTATE_MIN": 0,
-        "GREUTATE_MAX": 1,
+        "GREUTATE_MAX": 2,
         "VALOARE_MIN": 0,
         "VALOARE_MAX": 200000,
         "colete": {
           "colet": [
             {
               "id_colet": 1,
-              "greutate": 0.8,
+              "greutate": 1,
               "valoare": 3500,
               "continut_colet": "Bratara aur 24k"
             },
             {
               "id_colet": 2,
-              "greutate": 0.3,
+              "greutate": 1,
               "valoare": 0,
               "continut_colet": "Contract Telefonie"
             },
             {
               "id_colet": 3,
-              "greutate": 0.3,
+              "greutate": 1,
               "valoare": 2500,
               "continut_colet": "Bratara aur alb"
             },
             {
               "id_colet": 4,
-              "greutate": 0.2,
+              "greutate": 1,
               "valoare": 1500,
               "continut_colet": "Cercei smarald"
             },
             {
               "id_colet": 5,
-              "greutate": 0.4,
+              "greutate": 1,
               "valoare": 2800,
               "continut_colet": "Colier diamant-aur"
             },
             {
               "id_colet": 6,
-              "greutate": 0.4,
+              "greutate": 1,
               "valoare": 2320,
               "continut_colet": "Colier diamant-aur"
             },
             {
               "id_colet": 7,
-              "greutate": 0.2,
+              "greutate": 1,
               "valoare": 0,
               "continut_colet": "Contract televiziune"
             },
             {
               "id_colet": 8,
-              "greutate": 0.4,
-              "valoare": 200,
+              "greutate": 1,
+              "valoare": 250,
               "continut_colet": "Cercei aur"
             },
             {
               "id_colet": 9,
-              "greutate": 0.2,
-              "valoare": 2400,
+              "greutate": 1,
+              "valoare": 2430,
               "continut_colet": "Inel aur-alb 24k"
             },
             {
               "id_colet": 10,
-              "greutate": 0.4,
+              "greutate": 1,
               "valoare": 5620,
               "continut_colet": "Colier diamant-aur"
             },
             {
               "id_colet": 11,
-              "greutate": 0.4,
+              "greutate": 1,
               "valoare": 4986,
               "continut_colet": "Cercei diamant-aur"
             },
             {
               "id_colet": 12,
-              "greutate": 0.4,
+              "greutate": 1,
               "valoare": 0,
               "continut_colet": "Contract televizune"
             }
@@ -163,7 +163,7 @@
             {
               "id_colet": 24,
               "greutate": 40,
-              "valoare": 1510,
+              "valoare": 1590,
               "continut_colet": "Masina de spalat vase"
             }
           ]
@@ -181,121 +181,121 @@
             {
               "id_colet": 25,
               "greutate": 12,
-              "valoare": 2219.9,
+              "valoare": 3259,
               "continut_colet": "Televizor Samsung 125cm"
             },
             {
               "id_colet": 26,
               "greutate": 14,
-              "valoare": 3219.9,
+              "valoare": 3219,
               "continut_colet": "Telefon Philips"
             },
             {
               "id_colet": 27,
               "greutate": 14,
-              "valoare": 2419.9,
+              "valoare": 2419,
               "continut_colet": "Televizor Allview"
             },
             {
               "id_colet": 28,
               "greutate": 10,
-              "valoare": 2219.9,
+              "valoare": 2019,
               "continut_colet": "Televizor Philips"
             },
             {
               "id_colet": 29,
               "greutate": 11,
-              "valoare": 2219.9,
+              "valoare": 2519,
               "continut_colet": "Televizor Braun"
             },
             {
               "id_colet": 41,
               "greutate": 10,
-              "valoare": 4219.5,
+              "valoare": 4219,
               "continut_colet": "Televizor 7k"
             },
             {
               "id_colet": 42,
               "greutate": 10,
-              "valoare": 5219.5,
+              "valoare": 5219,
               "continut_colet": "Televizor 8k"
             },
             {
               "id_colet": 30,
               "greutate": 10,
-              "valoare": 2219.5,
+              "valoare": 2319,
               "continut_colet": "Televizor 2k"
             }
-        ]
-      }
-    },
-    {
-      "ID_CATEGORIE": 89,
-      "DENUMIRE_CATEGORIE": "Telefoane mobile",
-      "GREUTATE_MIN": 0,
-      "GREUTATE_MAX": 5,
-      "VALOARE_MIN": 0,
-      "VALOARE_MAX": 500000,
-      "colete": {
-        "colet": [
+          ]
+        }
+      },
+      {
+        "ID_CATEGORIE": 89,
+        "DENUMIRE_CATEGORIE": "Telefoane mobile",
+        "GREUTATE_MIN": 0,
+        "GREUTATE_MAX": 5,
+        "VALOARE_MIN": 0,
+        "VALOARE_MAX": 500000,
+        "colete": {
+          "colet": [
             {
               "id_colet": 31,
-              "greutate": 0.2,
-              "valoare": 1159.9,
+              "greutate": 0,
+              "valoare": 1159,
               "continut_colet": "Telefon Iphone"
             },
             {
               "id_colet": 32,
-              "greutate": 0.5,
-              "valoare": 2119.5,
+              "greutate": 0,
+              "valoare": 2139,
               "continut_colet": "Telefon Huawei"
             },
             {
               "id_colet": 33,
               "greutate": 1,
-              "valoare": 519.9,
+              "valoare": 519,
               "continut_colet": "Telefon Alcatel"
             },
             {
               "id_colet": 34,
               "greutate": 1,
-              "valoare": 5819.6,
+              "valoare": 5819,
               "continut_colet": "Telefon 4A"
             },
             {
               "id_colet": 35,
-              "greutate": 0.8,
-              "valoare": 4919.9,
+              "greutate": 0,
+              "valoare": 4919,
               "continut_colet": "Telefon P4"
             },
             {
               "id_colet": 36,
-              "greutate": 0.5,
-              "valoare": 3419.9,
+              "greutate": 0,
+              "valoare": 3419,
               "continut_colet": "Telefon Iro"
             },
             {
               "id_colet": 37,
               "greutate": 1,
-              "valoare": 4219.9,
+              "valoare": 4219,
               "continut_colet": "Telefon 5B"
             },
             {
               "id_colet": 38,
               "greutate": 1,
-              "valoare": 12219.9,
+              "valoare": 12219,
               "continut_colet": "Telefon 5B"
             },
             {
               "id_colet": 39,
-              "greutate": 0.2,
-              "valoare": 4219.9,
+              "greutate": 0,
+              "valoare": 4219,
               "continut_colet": "Telefon 5A"
             },
             {
               "id_colet": 40,
-              "greutate": 0.5,
-              "valoare": 1219.9,
+              "greutate": 0,
+              "valoare": 1519,
               "continut_colet": "Telefon 5A"
             }
           ]
@@ -303,4 +303,4 @@
       }
     ]
   }
-}
+}]
