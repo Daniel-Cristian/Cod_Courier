@@ -93,7 +93,7 @@ public class RESTViewServiceJSON {
 	public RESTViewServiceJSON() throws Exception {
 		this.fileDataSourceConnector = 
 				new JSONResourceFileDataSourceConnector("ColeteCategorii.json");
-				//new JSONWebDataSourceConnector("ftp://admin:macpass@localhost:7721/DepartamentsCities.json");
+				//new JSONWebDataSourceConnector("ftp://daniel:admin@192.168.0.112:21/ColeteCategorii.json");
 //		new JSONWebDataSourceConnector("http://localhost:8080/rest", "admin", "secret");
 		
 		this.viewBuilder = new CategoriiViewBuilder(fileDataSourceConnector);
