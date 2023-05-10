@@ -1,0 +1,119 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	
+	<modelVersion>4.0.0</modelVersion>
+	
+	<groupId>org.j4di.dataservices</groupId>
+	<artifactId>xls-data-source-demo-service</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>xls-jpa-data-source-demo-service</name>
+	
+	<description>JDBC_DataSource_Wrapper with Spring Boot</description>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.2.13.RELEASE</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+
+	<properties>
+		<java.version>11</java.version>
+		
+		<hibernate-validator.version>6.0.2.Final</hibernate-validator.version>
+		<javax.el-api.version>3.0.0</javax.el-api.version>
+		<javax.el.version>2.2.6</javax.el.version>
+		
+		<tomcat7-maven-plugin.version>2.2</tomcat7-maven-plugin.version>
+		<packaging-type>jar</packaging-type>
+		
+		<version.org.eclipse.persistence.moxy>2.7.4</version.org.eclipse.persistence.moxy>
+		<!-- Apache POI version 3.10-FINAL 4.1.0 -->
+		<apache.poi.version>4.1.0</apache.poi.version>
+	</properties>
+
+	<packaging>${packaging-type}</packaging>
+
+	<dependencies>
+		<dependency>
+	        <groupId>org.springframework.boot</groupId>
+	        <artifactId>spring-boot-starter</artifactId>
+	    </dependency>
+	    <dependency>
+	        <groupId>org.springframework.boot</groupId>
+	        <artifactId>spring-boot-starter-test</artifactId>
+	        <scope>test</scope>
+	    </dependency>
+	    <dependency>
+	        <groupId>org.springframework.boot</groupId>
+	        <artifactId>spring-boot-starter-web</artifactId>
+	    </dependency>
+	    <dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.oracle.ojdbc</groupId>
+			<artifactId>ojdbc8</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		
+		<dependency>
+		  <groupId>com.fasterxml.jackson.dataformat</groupId>
+		  <artifactId>jackson-dataformat-xml</artifactId>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
+		<dependency>
+		    <groupId>org.apache.httpcomponents</groupId>
+		    <artifactId>httpclient</artifactId>
+		    <scope>test</scope>
+		</dependency>
+		
+		<!-- JAXB.EclipseLink Support: MOXy -->
+		<!-- https://mvnrepository.com/artifact/org.eclipse.persistence/org.eclipse.persistence.moxy -->
+		<dependency>
+			<groupId>org.eclipse.persistence</groupId>
+			<artifactId>org.eclipse.persistence.moxy</artifactId>
+			<version>${version.org.eclipse.persistence.moxy}</version>
+		</dependency>
+		
+		<!-- Apache POI: accessing XLS Files -->
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>${apache.poi.version}</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>${apache.poi.version}</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<configuration>
+					<skip>true</skip>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
