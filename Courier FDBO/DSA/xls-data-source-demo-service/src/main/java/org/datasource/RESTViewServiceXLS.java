@@ -55,7 +55,7 @@ public class RESTViewServiceXLS {
 	public RESTViewServiceXLS() throws Exception {
 		this.dataSourceConnector = 
 				new XLSXResourceFileDataSourceConnector("Dest-Veh.xlsx");
-				//new XLSXWebDataSourceConnector("ftp://admin:macpass@localhost:7721/CustProdCateg.xlsx");
+				//new XLSXWebDataSourceConnector("ftp://daniel:admin@192.168.0.112:21/Dest-Veh.xlsx");
 		//
 		this.destinatariTupleViewBuilder = new XLXSTupleViewBuilder(this.dataSourceConnector, "DESTINATARI");
 		this.vehiculeTupleViewBuilder = new XLXSTupleViewBuilder(this.dataSourceConnector, "VEHICULE");
