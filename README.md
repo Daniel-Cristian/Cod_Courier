@@ -1,5 +1,4 @@
-# Cod_Courier
-Informational Integration Project for Master Business Information Systems. 
+# cod_courier - Informational Integration Project for Master Business Information Systems. 
 - Reading data from different sources and exposing them in the form of REST APIs. 
 
 ## Technologies used
